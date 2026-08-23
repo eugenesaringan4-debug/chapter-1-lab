@@ -25,4 +25,4 @@ class BankAccount:
         self._balance -= amount
 
     def __str__(self):
-        return f"{self.owner}: {self._balance:.2f}"
+        return f"{self.owner}: {self._balance:.2f}"  
